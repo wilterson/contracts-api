@@ -43,8 +43,7 @@ const getTotalToPay = async (id: number) => {
 export const balanceController = {
   /**
    * @description Clients can only deposit 25% of unpaid jobs total.
-   *
-   * @returns make a deposit to client's balance
+   *              Make a deposit to client's balance
    */
   async deposit(req: IAuthRequest, res: Response) {
     const { amount } = req.body
@@ -139,7 +138,7 @@ export const balanceController = {
   },
 
   /**
-   * @returns user's current balance
+   * @description Withdraw from contractor's balance
    */
   async withdraw(req: IAuthRequest, res: Response) {
     const { amount } = req.body
