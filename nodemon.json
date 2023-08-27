@@ -1,0 +1,19 @@
+{
+  "watch": [
+    "src"
+  ],
+  "ext": "js,json,ts",
+  "ignore": [
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts",
+    "node_modules",
+    ".git",
+    "dist"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "execMap": {
+    "ts": "node --require ts-node/register"
+  }
+}

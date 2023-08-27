@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "incremental": false,
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "preserveConstEnums": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", ".vscode", "dist", "dist-types"]
+}
